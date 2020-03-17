@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@color/colorLightBlue"
+        android:orientation="vertical"
+        tools:context=".LoginActivity">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="364dp"
+            android:src="@drawable/acceuil"/>
+    <EditText
+            android:id="@+id/login_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Login"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorWhit"
+            android:textAlignment="center"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            />
+    <EditText
+            android:id="@+id/password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Mot de Passe"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="28sp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorWhit"
+            android:textAlignment="center"
+
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            />
+    <Button
+            android:id="@+id/valider_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Valider"
+            android:background="@color/colorSucces"
+            android:textColor="@color/colorWhit"
+            android:textSize="18sp"
+            android:onClick="onClickValider"
+            android:layout_marginTop="20dp"/>
+
+    <TextView
+            android:id="@+id/Creer_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_loginLayout"
+            android:textSize="23sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhit"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="onClickCreateAcount"
+            android:clickable="true"
+            />
+
+
+
+
+
+</LinearLayout>
