@@ -1,19 +1,33 @@
 <resources>
-    <string name="app_name">Security</string>
+    <string name="app_name">GCulture</string>
     <string name="register_loginLayout">Crée Votre compte</string>
     <string name="Valider">Valider</string>
-    <string name="title_activity_sin_up">Sign Up</string>
+    <string name="title_activity_sin_up">s\'inscrire</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Mot de passe</string>
     <string name="confirme_password">Confirmer votre mot de passe</string>
     <string name="action_sign_in">Enregistrez vous</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
+    <string name="action_sign_in_short">s\'inscrire</string>
+    <string name="welcome">Bienvenue !</string>
+    <string name="invalid_username">Nom d\'utilisateur incorrect</string>
+    <string name="invalid_password">Mot de passe incorrect  >5 Caractère</string>
+    <string name="login_failed">l\authentification a échoué</string>
     <string name="accueil">Accueil</string>
     <string name="recomencer">Recommencer</string>
     <string name="exit">Quiter</string>
-    <string name="question1">Est-ce que c est moi qui a le droit de passer en premier ?</string>
+    <string name="vrai">Vrai</string>
+    <string name="faux">Faux</string>
+
+    <!--*********************** Question du Quizz ******************************************** -->
+    <string name="question1">Un arachnophobe a la phobie des araignées ?</string>
+    <string name="question2">San Francisco est situé à l\'est des États-Unis ?</string>
+    <string name="question3">Se craquer fréquemment les doigts peut provoquer de l\'arthrite ?</string>
+    <string name="question4">La surface de la planète Vénus peut atteindre les 400 degrés Celsius ?</string>
+    <string name="question5">Le logo d\'Instagram est représenté par un appareil photo dans un fond rose ?</string>
+    <string name="question6">La pizza est une spécialité italienne ?</string>
+    <string name="question7">Le "www" que l\'on met dans nos liens pour naviguer sur Internet ne veut strictement rien dire ?</string>
+    <string name="question8">La vitesse du son varie en fonction de la température ?</string>
+    <string name="question9">L\'Alaska est un états des Etats-Unis. ?</string>
+    <string name="question10">La capitale de la Chine est Tokyo ?</string>
+    <string name="votre_score">Votre Score !</string>
 </resources>

@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp"
-        android:background="@color/colorLightBlue"
+        android:background="@drawable/backgroud"
         tools:context=".Singup">
 
     <ImageView
@@ -15,10 +15,12 @@
             android:layout_height="248dp"
             android:src="@drawable/user"/>
     <EditText
+
             android:id="@+id/username_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/prompt_email"
+            android:textColorHint="@color/colorWhit"
             android:inputType="textEmailAddress"
             android:selectAllOnFocus="true"
             android:layout_marginTop="25dp"

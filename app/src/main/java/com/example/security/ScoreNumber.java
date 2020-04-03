@@ -1,6 +1,6 @@
 package com.example.security;
 
-public class ScoreNumber {
+public  class ScoreNumber {
     private static int scoreNumber = 0 ;
 
     public static void setScoreNumber(int scoreNumber) {

@@ -4,6 +4,6 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="colorLightBlue">#389ef6</color>
-    <color name="colorWhit">#ffffff</color>
+    <color name="colorWhit">#FFFFFF</color>
     <color name="colorSucces">#7cff69</color>
 </resources>

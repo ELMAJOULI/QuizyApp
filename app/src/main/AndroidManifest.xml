@@ -15,7 +15,7 @@
         </activity>
         <activity android:name=".Singup">
         </activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

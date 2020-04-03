@@ -2,21 +2,21 @@
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp"
-        android:background="@color/colorLightBlue"
+        android:background="@drawable/backgroud"
         tools:context=".Question1">
 
     <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="173dp"
-            android:src="@drawable/q1"
-            android:layout_marginTop="80dp"/>
+            android:layout_width="366dp"
+            android:layout_height="224dp"
+            android:src="@drawable/acceuil"
+            />
 
     <TextView
+            android:textColor="@color/colorWhit"
             android:id="@+id/question_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,28 +27,35 @@
             android:layout_marginTop="30dp"
             />
     <RadioGroup
+            android:textColor="@color/colorWhit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/reponse_radiogroup"
             android:orientation="vertical">
         <RadioButton
+                android:textColor="@color/colorWhit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Non"
+                android:text="@string/faux"
                 android:textSize="25sp"
+                android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 />
         <RadioButton
+                android:textColor="@color/colorWhit"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Oui"
+                android:text="@string/vrai"
                 android:textSize="25sp"
+                android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 />
 
     </RadioGroup>
 
     <Button
+            android:textColor="@color/colorWhit"
             android:id="@+id/suivant_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,5 +70,21 @@
             android:text="Annuler"
             android:layout_marginTop="10dp"
             android:background="@color/colorAccent"
+            android:textColor="@color/colorWhit"
+            android:onClick="onClickExit"
+
             />
+
+    <TextView
+            android:textColor="@color/colorWhit"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:id="@+id/tvProgress"/>
+
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/progressBar"/>
 </LinearLayout>

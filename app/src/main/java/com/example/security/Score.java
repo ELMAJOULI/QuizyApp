@@ -1,6 +1,7 @@
 package com.example.security;
 
 import android.content.Intent;
+import android.util.Log;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,7 +16,8 @@ public class Score extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
         dunot_progress = (DonutProgress) findViewById(R.id.donut_progress);
-        dunot_progress.setProgress(ScoreNumber.getScoreNumber()*100);
+        Log.d("Question1","Your score : sc "+ScoreNumber.getScoreNumber());
+        dunot_progress.setProgress(ScoreNumber.getScoreNumber()*10);
 
     }
 
